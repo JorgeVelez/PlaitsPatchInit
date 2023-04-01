@@ -1,6 +1,9 @@
 # Project Name
 TARGET = plaits
 
+# Use the Daisy Bootloader instead of system bootloader
+APP_TYPE=BOOT_SRAM
+
 # Library Locations
 LIBDAISY_DIR = ../../libDaisy
 DAISYSP_DIR = ../../DaisySP/
